@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main_content {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    flex: 1;
+}
+
+/* For about me page */
+#intro_me {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.2;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+#main_content .wishlist_section {
+    list-style: none;
+    border: solid;
+    border-color: #333;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#one {
+    background-color: #f27365;
+}
+
+#two {
+    background-color: #67df99;
+}
+
+a {
+    font-weight: bold;
+}
+
+li {
+    font-weight: bold;
+}
